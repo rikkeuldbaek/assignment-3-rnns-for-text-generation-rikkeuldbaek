@@ -37,7 +37,7 @@ The scripts require a certain folder structure, thus the table below presents th
 |```models```| saved RNN model and it's parameters and variables|```saved_model.pb```, ```keras_metadata.pb```, ```fingerprint.pb``` etc.|
 |```out```|tokenizer and max_sequence_len|```tokenizer.pickle```, ```max_sequence_len.txt```|
 |```utils```|predefined functions|```predef_func.py```|
-|```data```|storage of data for the user|currently empty, download data via kaggle and se further instructions below|
+|```data```|storage of data for the user|currently empty, download data via kaggle and see further instructions below|
 
 
 The ```data.py``` script located in ```src``` produces preprocessed, cleaned, tokenized, and padded data. The ```train_model.py``` located in ```src``` produces a trained model that are saved in the folder ```models``` and likewise saves the tokenizer and max-sequence-length variable for later use when running the model. Lastly, the ```run_model.py``` located in ```src``` produces a sequence of generated text from user-suggested input prompt. 
